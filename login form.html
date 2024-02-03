@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labour Contract Management System login</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .background-image {
+        background-image: url(./images/pexels-pixabay-259984.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 130vh;
+      }
+      img {
+        margin: auto;
+        display: block;
+        width: 8%;
+      }
+      h1 {
+        text-align: center;
+        font-family: cursive;
+        font-size: revert;
+      }
+      body {
+        font-family: cursive;
+      }
+
+      .center2 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: #ffffff;
+        color: rgb(4, 4, 4);
+        border-radius: 10px;
+        border: 3px solid #270871;
+        padding-bottom: 20px;
+        margin-top: 200px;
+      }
+      a:hover {
+        border-radius: 5px;
+        background-color: #fefefe;
+        transition: background-color 1s ease 0s;
+      }
+      .center2 h1 {
+        text-align: center;
+        padding: 0 0 40px 0;
+        border-bottom: 10px solid rgb(7, 10, 119);
+      }
+      .center form {
+        padding: 0 40px;
+        box-sizing: border-box;
+      }
+      form .txt_field {
+        position: relative;
+        border-bottom: 2px solid #000000;
+        margin: 30px 0;
+      }
+      .txt_field input {
+        width: 100%;
+        padding: 0px 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+      }
+      .txt_field label {
+        position: relative;
+        top: 50%;
+        left: 5px;
+        color: rgb(141 134 123);
+        transform: translate(10%);
+        font-size: 16px;
+        pointer-events: none;
+      }
+      button {
+        background-color: #05057b;
+        color: white;
+        border-radius: 5px;
+        transition: all 0.2s ease;
+        height: 50px;
+        width: 130px;
+      }
+      button:active {
+        transform: scale(0.96);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <div class="background-image">
+        <div class="webpage">
+          
+          <div class="center2">
+            <h1>Login</h1>
+            <form method="post">
+              <div class="txt_field">
+                <input type="text" required placeholder="Username" />
+              </div>
+              <div class="txt_field">
+                <input type="password" required placeholder="Password" />
+              </div>
+              <center>
+                <div class="pass"><a href="#">Forgot Password?</a></div>
+                <button>Login</button>
+                <div class="signup">Not a member? <a href="#">Signup</a></div>
+              </center>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
